@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: white ;
+}
+
+header{
+background-image:url('cars.jpg');
+height: 720px;
+margin-left: 20px;
+margin-right: 90px;
+margin-top: 20px;
+background-position: center ;
+background-repeat: no-repeat;
+background-size: cover;
+
+display: flex;
+flex-direction: column;
+
+}
+
+.header-h1{
+    /*background-color: brown;*/
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    
+
+}
+
+header ul{
+    /*background-color: aqua;*/
+    list-style: none;
+    margin-top: 30px;
+}
+
+h2{
+    margin-top: 20px;
+    /*background-color: coral;*/
+    text-align: center;
+}
+
+.contenedor-frases{
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-frases-p{
+    margin-top: 20px;
+    width: 25%;
+} 
+
+.contenedor-autos{
+    /*background-color: black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.autos{
+    /*background-color: chocolate;*/
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.autos p{
+    /*background-color: blue;*/
+    margin-top: 20px;
+    width: 120px;
+    text-align: center;
+}
+.autos img{
+    width: 280px;
+    height: 150px;
+    margin-top:10px;
+    
+}
+
+footer{
+    height: 190px;
+    margin-top: 150px;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 90px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    border-color: red #080;
+}
+
+.footer-redes {
+    margin-top: 30px;
+}
+.footer-redes img{
+    margin-top: 5px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
